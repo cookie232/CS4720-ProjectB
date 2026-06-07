@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Claude Code internal files
+.claude/
+
+# Backup files
+*.bak
+
+# TLC-generated state graph dumps
+*.dot
+
+# OS junk
+.DS_Store
+Thumbs.db
