@@ -1,0 +1,2 @@
+{"clock":165,"msgs":[{"op":"AddElement","path":[],"args":[{"rm":"rm-2","type":"Prepared"}]}],"rmState":[{"op":"Update","path":["rm-2"],"args":["prepared"]}],"event":"RMPrepare","desc":"rm-2","logger":"a1747fca-311c-44fb-ab8b-5713035738cf"}
+{"clock":172,"rmState":[{"op":"Update","path":["rm-2"],"args":["aborted"]}],"event":"RMRcvAbortMsg","desc":"rm-2","logger":"a1747fca-311c-44fb-ab8b-5713035738cf"}

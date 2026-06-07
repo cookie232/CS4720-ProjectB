@@ -1,0 +1,44 @@
+{
+  "title": "TraceEntry",
+  "description": "An entry in a trace",
+  "type": "object",
+  "properties": {
+    "clock": {
+      "description": "The timestamp of the event",
+      "type": "integer",
+      "minimum": 0
+    },
+    "rmState": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "type": "string"
+          },
+          "path": {
+            "type": "array"
+          },
+          "args": {
+            "type": "array"
+          }
+        },
+        "required": [ "op", "path", "args"]
+      },
+      "minItems": 1
+    },
+    "event": {
+      "description": "Name of the event",
+      "type": "string"
+    },
+    "event_args": {
+      "description": "Arguments of the event",
+      "type": "array",
+      "items": {
+        "type": "string"
+      } 
+    }
+  },
+  "required": [ "clock"]
+}
+

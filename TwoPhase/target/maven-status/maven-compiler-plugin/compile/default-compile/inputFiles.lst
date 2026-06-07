@@ -1,0 +1,16 @@
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\Client.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\helpers\Helper.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\MessageBox.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\MessageBucket.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\NetworkManager.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\QueueMessageBox.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\Server.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\ServerThread.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\TimeOutException.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\network\UnorderedMessageBox.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\protocol\Configuration.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\protocol\Manager.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\protocol\Message.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\protocol\ResourceManager.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\protocol\TransactionManager.java
+C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\src\main\java\org\lbee\protocol\TwoPhaseMessage.java

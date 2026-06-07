@@ -1,0 +1,4 @@
+{"clock":163,"tmState":[{"op":"Unchanged","path":[],"args":[]}],"tmPrepared":[{"op":"AddElement","path":[],"args":["rm-0"]}],"event":"TMRcvPrepared","desc":"rm-0","logger":"008d74ad-627d-4c6c-89f9-f206630a11c9"}
+{"clock":166,"tmState":[{"op":"Unchanged","path":[],"args":[]}],"tmPrepared":[{"op":"AddElement","path":[],"args":["rm-0"]}],"event":"TMRcvPrepared","desc":"rm-0","logger":"008d74ad-627d-4c6c-89f9-f206630a11c9"}
+{"clock":168,"tmState":[{"op":"Unchanged","path":[],"args":[]}],"tmPrepared":[{"op":"AddElement","path":[],"args":["rm-1"]}],"event":"TMRcvPrepared","desc":"rm-1","logger":"008d74ad-627d-4c6c-89f9-f206630a11c9"}
+{"clock":169,"msgs":[{"op":"AddElement","path":[],"args":[{"type":"Abort"}]}],"tmState":[{"op":"Update","path":[],"args":["done"]}],"event":"TMAbort","logger":"008d74ad-627d-4c6c-89f9-f206630a11c9"}

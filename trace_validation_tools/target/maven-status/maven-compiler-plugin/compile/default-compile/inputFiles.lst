@@ -1,0 +1,16 @@
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\ClientClock.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\ClockException.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\ClockFactory.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\FileClock.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\InstrumentationClock.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\LocalClock.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\MemoryClock.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\clock\ServerClock.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\helper\ConfigurationManager.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\helper\NDJsonSerializer.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\helper\TLASerializer.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\trace\PathItem.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\trace\TLATracer.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\trace\TraceItem.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\trace\VirtualField.java
+C:\Users\migel\Desktop\CS4720-ProjectB\trace_validation_tools\src\main\java\org\lbee\instrumentation\usage\TestClientClock.java
