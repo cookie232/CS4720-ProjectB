@@ -10,6 +10,12 @@
 # TLC-generated state graph dumps
 *.dot
 
+# TLC temporary state/fingerprint files
+TwoPhase/spec/states/
+**/states/
+*.st
+*.fp
+
 # OS junk
 .DS_Store
 Thumbs.db

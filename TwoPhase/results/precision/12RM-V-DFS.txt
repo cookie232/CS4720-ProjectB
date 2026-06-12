@@ -1,0 +1,70 @@
+TLC2 Version 2026.05.26.235334 (rev: 4ba7d88)
+Running breadth-first search Model-Checking with fp 34 and seed -6764591071260885870 with 1 worker on 16 cores with 5392MB heap and 64MB offheap memory [pid: 5204] (Windows 11 10.0 amd64, Oracle Corporation 25.0.2 64bit, MSBDiskFPSet, StateDeque).
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TwoPhaseTrace.tla
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\TLC.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Sequences.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\SequencesExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/SequencesExt.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Naturals.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\FiniteSets.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Bags.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Bags.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Json.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Json.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\IOUtils.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/IOUtils.tla)
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TwoPhase.tla
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TVOperators.tla
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TraceSpec.tla
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\FiniteSetsExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/FiniteSetsExt.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Folds.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Folds.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Functions.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Functions.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-9390163073898489766\Integers.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TCommit.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module Folds
+Semantic processing of module Functions
+Semantic processing of module FiniteSetsExt
+Semantic processing of module Bags
+Semantic processing of module SequencesExt
+Semantic processing of module Json
+Semantic processing of module IOUtils
+Semantic processing of module TCommit
+Semantic processing of module TwoPhase
+Semantic processing of module TVOperators
+Semantic processing of module TraceSpec
+Semantic processing of module TwoPhaseTrace
+Linting of module Folds
+Linting of module Functions
+Linting of module FiniteSetsExt
+Linting of module SequencesExt
+Linting of module Json
+Linting of module IOUtils
+Linting of module TCommit
+Linting of module TwoPhase
+Linting of module TVOperators
+Linting of module TraceSpec
+Linting of module TwoPhaseTrace
+Starting... (2026-06-12 21:52:52)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-06-12 21:52:52.
+Warning: The variable tmPrepared was changed while it is specified as UNCHANGED at
+line 107, col 27 to line 107, col 36 of module TwoPhase
+(Use the -nowarning option to disable this warning.)
+Warning: The variable tmPrepared was changed while it is specified as UNCHANGED at
+line 116, col 27 to line 116, col 36 of module TwoPhase
+Warning: The variable rmState was changed while it is specified as UNCHANGED at
+line 87, col 18 to line 87, col 24 of module TwoPhase
+Warning: The variable tmPrepared was changed while it is specified as UNCHANGED at
+line 107, col 27 to line 107, col 36 of module TwoPhase
+Warning: The variable msgs was changed while it is specified as UNCHANGED at
+line 87, col 36 to line 87, col 39 of module TwoPhase
+Progress(74) at 2026-06-12 21:52:52: 554 states generated (554 s/min), 209 distinct states found (209 ds/min), 136 states left on queue.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 3.9E-15
+554 states generated, 209 distinct states found, 136 states left on queue.
+The depth of the complete state graph search is 74.
+The average outdegree of the complete state graph is 3 (minimum is 1, the maximum 13 and the 95th percentile is 10).
+Finished in 00s at (2026-06-12 21:52:52)
