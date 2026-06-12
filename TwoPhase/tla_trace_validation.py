@@ -1,9 +1,13 @@
 import os
 import argparse
+from pathlib import Path
 from subprocess import Popen
 
-# Path to TLA+ tools jar on Windows
-tla_cp = r"C:\Users\migel\Desktop\CS4720-ProjectB\tools\tla2tools.jar;C:\Users\migel\Desktop\CS4720-ProjectB\tools\CommunityModules-deps.jar"
+_tools_dir = Path(__file__).parent.parent / "tools"
+tla_cp = os.pathsep.join([
+    str(_tools_dir / "tla2tools.jar"),
+    str(_tools_dir / "CommunityModules-deps.jar"),
+])
 # Run TLC
 def run_tla(trace_spec,trace="trace.ndjson",config="conf.ndjson",dfs=False):
     os.environ["TRACE_PATH"] = trace

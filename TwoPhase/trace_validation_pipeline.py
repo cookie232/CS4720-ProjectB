@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 import run_impl
 import trace_merger
@@ -37,7 +38,8 @@ for trace_file in trace_files:
 # Compile
 if args.compile:
     print("# Package.\n")
-    subprocess.run(["mvn.cmd", "package"])
+    mvn = "mvn.cmd" if sys.platform == "win32" else "mvn"
+    subprocess.run([mvn, "package"])
 
 # Run
 print("# Start implementation.\n")
@@ -51,6 +53,6 @@ trace_merger.run(files, sort=True, remove_meta=True, out="trace.ndjson")
 
 # Validate trace
 print("# Start TLA+ trace spec.\n")
-tla_trace_validation.run_tla(r"spec\TwoPhaseTrace.tla","trace.ndjson","conf.ndjson",args.dfs)
+tla_trace_validation.run_tla(os.path.join("spec", "TwoPhaseTrace.tla"),"trace.ndjson","conf.ndjson",args.dfs)
 
 # print("End pipeline.")
