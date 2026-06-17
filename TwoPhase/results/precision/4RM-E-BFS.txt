@@ -1,21 +1,21 @@
 TLC2 Version 2026.05.26.235334 (rev: 4ba7d88)
-Running breadth-first search Model-Checking with fp 28 and seed 1502604717277214661 with 1 worker on 16 cores with 5392MB heap and 64MB offheap memory [pid: 44972] (Windows 11 10.0 amd64, Oracle Corporation 25.0.2 64bit, MSBDiskFPSet, DiskStateQueue).
+Running breadth-first search Model-Checking with fp 123 and seed 1802065187931656565 with 1 worker on 16 cores with 5392MB heap and 64MB offheap memory [pid: 38528] (Windows 11 10.0 amd64, Oracle Corporation 25.0.2 64bit, MSBDiskFPSet, DiskStateQueue).
 Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TwoPhaseTrace.tla
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\TLC.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Sequences.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\SequencesExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/SequencesExt.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Naturals.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\FiniteSets.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Bags.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Bags.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Json.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Json.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\IOUtils.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/IOUtils.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\TLC.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Sequences.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\SequencesExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/SequencesExt.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Naturals.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\FiniteSets.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Bags.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Bags.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Json.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Json.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\IOUtils.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/IOUtils.tla)
 Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TwoPhase.tla
 Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TVOperators.tla
 Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TraceSpec.tla
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\FiniteSetsExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/FiniteSetsExt.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Folds.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Folds.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Functions.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Functions.tla)
-Parsing file C:\Users\migel\AppData\Local\Temp\tlc-17259831034438680358\Integers.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\FiniteSetsExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/FiniteSetsExt.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Folds.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Folds.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Functions.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Functions.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-2884382167089296373\Integers.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
 Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TCommit.tla
 Semantic processing of module Naturals
 Semantic processing of module Sequences
@@ -45,13 +45,13 @@ Linting of module TwoPhase
 Linting of module TVOperators
 Linting of module TraceSpec
 Linting of module TwoPhaseTrace
-Starting... (2026-06-12 20:32:26)
+Starting... (2026-06-18 00:04:16)
 Computing initial states...
-Finished computing initial states: 1 distinct state generated at 2026-06-12 20:32:27.
-Progress(19) at 2026-06-12 20:32:27: 568 states generated (568 s/min), 243 distinct states found (243 ds/min), 14 states left on queue.
-Progress(19) at 2026-06-12 20:32:27: 568 states generated (0 s/min), 244 distinct states found (1 ds/min), 15 states left on queue.
-Progress(19) at 2026-06-12 20:32:27: 569 states generated (1 s/min), 245 distinct states found (1 ds/min), 15 states left on queue.
-Progress(19) at 2026-06-12 20:32:27: 570 states generated (1 s/min), 246 distinct states found (1 ds/min), 16 states left on queue.
+Finished computing initial states: 1 distinct state generated at 2026-06-18 00:04:16.
+Progress(19) at 2026-06-18 00:04:16: 568 states generated (568 s/min), 243 distinct states found (243 ds/min), 14 states left on queue.
+Progress(19) at 2026-06-18 00:04:16: 568 states generated (0 s/min), 244 distinct states found (1 ds/min), 14 states left on queue.
+Progress(19) at 2026-06-18 00:04:16: 570 states generated (2 s/min), 245 distinct states found (1 ds/min), 16 states left on queue.
+Progress(19) at 2026-06-18 00:04:16: 570 states generated (0 s/min), 246 distinct states found (1 ds/min), 16 states left on queue.
 Model checking completed. No error has been found.
   Estimates of the probability that TLC did not check all reachable states
   because two distinct states had the same fingerprint:
@@ -59,4 +59,4 @@ Model checking completed. No error has been found.
 570 states generated, 246 distinct states found, 17 states left on queue.
 The depth of the complete state graph search is 19.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 4 and the 95th percentile is 3).
-Finished in 00s at (2026-06-12 20:32:27)
+Finished in 00s at (2026-06-18 00:04:16)

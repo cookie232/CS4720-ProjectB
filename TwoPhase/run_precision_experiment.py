@@ -66,13 +66,19 @@ def run_tlc(trace: Path, conf: Path, dfs: bool) -> tuple:
     env["CONFIG_PATH"] = str(conf)
     timeout = DFS_TIMEOUT if dfs else BFS_TIMEOUT
     t0 = time.time()
+    proc = subprocess.Popen(
+        build_cmd(dfs), env=env, cwd=str(BASE),
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+    )
     try:
-        proc = subprocess.run(
-            build_cmd(dfs), env=env, cwd=str(BASE),
-            capture_output=True, text=True, timeout=timeout,
-        )
-        return proc.stdout + proc.stderr, time.time() - t0, False
+        stdout, stderr = proc.communicate(timeout=timeout)
+        return stdout.decode(errors="replace") + stderr.decode(errors="replace"), time.time() - t0, False
     except subprocess.TimeoutExpired:
+        proc.kill()
+        try:
+            proc.communicate(timeout=5)
+        except subprocess.TimeoutExpired:
+            pass
         return "", time.time() - t0, True
 
 
@@ -115,11 +121,18 @@ for rm in RM_COUNTS:
             paper_val = ref_d if dfs else ref_b
             paper_str = "∞" if paper_val is None else f"{paper_val:,}"
 
-            print(f"  Running {label} {mode} ...", end="", flush=True)
-            output, elapsed, timed_out = run_tlc(trace, conf, dfs)
-
             raw_file = OUT_DIR / f"{rm}RM-{cfg}-{mode}.txt"
-            raw_file.write_text(output)
+            if raw_file.exists():
+                output = raw_file.read_text()
+                elapsed = 0.0
+                timed_out = ("TIMEOUT" in output or output.strip() == "")
+                print(f"  SKIP (already done): {label} {mode}")
+            else:
+                print(f"  Running {label} {mode} ...", end="", flush=True)
+                output, elapsed, timed_out = run_tlc(trace, conf, dfs)
+
+            if not raw_file.exists() or output.strip():
+                raw_file.write_text(output)
 
             if timed_out:
                 row = dict(rm=rm, cfg=cfg, mode=mode, verdict="TIMEOUT",

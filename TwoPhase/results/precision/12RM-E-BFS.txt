@@ -1,0 +1,75 @@
+TLC2 Version 2026.05.26.235334 (rev: 4ba7d88)
+Running breadth-first search Model-Checking with fp 108 and seed 2422101881627453537 with 1 worker on 16 cores with 5392MB heap and 64MB offheap memory [pid: 4424] (Windows 11 10.0 amd64, Oracle Corporation 25.0.2 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TwoPhaseTrace.tla
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\TLC.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Sequences.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\SequencesExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/SequencesExt.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Naturals.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\FiniteSets.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Bags.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Bags.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Json.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Json.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\IOUtils.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/IOUtils.tla)
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TwoPhase.tla
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TVOperators.tla
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TraceSpec.tla
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\FiniteSetsExt.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/FiniteSetsExt.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Folds.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Folds.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Functions.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/CommunityModules-deps.jar!/Functions.tla)
+Parsing file C:\Users\migel\AppData\Local\Temp\tlc-3526706545268120326\Integers.tla (jar:file:/C:/Users/migel/Desktop/CS4720-ProjectB/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\migel\Desktop\CS4720-ProjectB\TwoPhase\spec\TCommit.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module Folds
+Semantic processing of module Functions
+Semantic processing of module FiniteSetsExt
+Semantic processing of module Bags
+Semantic processing of module SequencesExt
+Semantic processing of module Json
+Semantic processing of module IOUtils
+Semantic processing of module TCommit
+Semantic processing of module TwoPhase
+Semantic processing of module TVOperators
+Semantic processing of module TraceSpec
+Semantic processing of module TwoPhaseTrace
+Linting of module Folds
+Linting of module Functions
+Linting of module FiniteSetsExt
+Linting of module SequencesExt
+Linting of module Json
+Linting of module IOUtils
+Linting of module TCommit
+Linting of module TwoPhase
+Linting of module TVOperators
+Linting of module TraceSpec
+Linting of module TwoPhaseTrace
+Starting... (2026-06-12 21:52:59)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-06-12 21:52:59.
+Progress(28) at 2026-06-12 21:53:02: 241,987 states generated (241,987 s/min), 77,834 distinct states found (77,834 ds/min), 24,434 states left on queue.
+Progress(41) at 2026-06-12 21:54:02: 5,998,070 states generated (5,756,083 s/min), 1,039,301 distinct states found (961,467 ds/min), 100,589 states left on queue.
+Progress(48) at 2026-06-12 21:55:02: 12,296,465 states generated (6,298,395 s/min), 1,934,199 distinct states found (894,898 ds/min), 125,565 states left on queue.
+Progress(56) at 2026-06-12 21:56:02: 16,989,389 states generated (4,692,924 s/min), 2,465,584 distinct states found (531,385 ds/min), 36,565 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,948 states generated (1,162,559 s/min), 2,576,382 distinct states found (110,798 ds/min), 4,094 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,949 states generated (1 s/min), 2,576,383 distinct states found (1 ds/min), 4,095 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,950 states generated (1 s/min), 2,576,384 distinct states found (1 ds/min), 4,096 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,951 states generated (1 s/min), 2,576,385 distinct states found (1 ds/min), 4,097 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,952 states generated (1 s/min), 2,576,386 distinct states found (1 ds/min), 4,098 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,953 states generated (1 s/min), 2,576,387 distinct states found (1 ds/min), 4,099 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,954 states generated (1 s/min), 2,576,388 distinct states found (1 ds/min), 4,100 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,955 states generated (1 s/min), 2,576,389 distinct states found (1 ds/min), 4,101 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,956 states generated (1 s/min), 2,576,390 distinct states found (1 ds/min), 4,102 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,957 states generated (1 s/min), 2,576,391 distinct states found (1 ds/min), 4,103 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,958 states generated (1 s/min), 2,576,392 distinct states found (1 ds/min), 4,104 states left on queue.
+Progress(74) at 2026-06-12 21:56:22: 18,151,958 states generated (0 s/min), 2,576,393 distinct states found (1 ds/min), 4,105 states left on queue.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.2E-6
+  based on the actual fingerprints:  val = 1.6E-7
+18151958 states generated, 2576393 distinct states found, 4105 states left on queue.
+The depth of the complete state graph search is 74.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 12 and the 95th percentile is 4).
+Finished in 03min 24s at (2026-06-12 21:56:23)
