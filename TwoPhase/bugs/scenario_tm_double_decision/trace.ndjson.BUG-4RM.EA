@@ -1,0 +1,14 @@
+{"event": "RMPrepare", "event_args": ["rm-1"]}
+{"event": "RMPrepare", "event_args": ["rm-2"]}
+{"event": "RMPrepare", "event_args": ["rm-3"]}
+{"event": "RMPrepare", "event_args": ["rm-0"]}
+{"event": "TMRcvPrepared", "event_args": ["rm-3"]}
+{"event": "TMRcvPrepared", "event_args": ["rm-0"]}
+{"event": "TMRcvPrepared", "event_args": ["rm-1"]}
+{"event": "TMRcvPrepared", "event_args": ["rm-2"]}
+{"event": "TMCommit"}
+{"event": "TMAbort"}
+{"event": "RMRcvAbortMsg", "event_args": ["rm-0"]}
+{"event": "RMRcvAbortMsg", "event_args": ["rm-3"]}
+{"event": "RMRcvAbortMsg", "event_args": ["rm-2"]}
+{"event": "RMRcvAbortMsg", "event_args": ["rm-1"]}
